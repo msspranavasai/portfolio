@@ -1,11 +1,17 @@
 import { FaProjectDiagram, FaCode, FaMusic, FaFilm, FaRobot, FaGamepad } from "react-icons/fa";
+import riffradar from "../assets/projects/radar.png";
+import cinescope from "../assets/projects/ca.png";
+import archive_message_reconstruction from "../assets/projects/monalisa.png";
+import interactive_puzzle_game from "../assets/projects/puzzle.png";
+import command_tune from "../assets/projects/ct.png";
+import dungeon_crawl from "../assets/projects/dc.png";
 
 const projects = [
     {
         title: "RiffRadar",
         description: "An innovative Android app designed to enhance the concert-going experience by simplifying ticket purchasing and event planning. Users can browse concerts, purchase tickets, and manage schedules with real-time updates and seamless ticket integration.",
         techStack: ["Java", "External API", "MySQL", "Websockets"],
-        image: "src/assets/projects/radar.png",
+        image: riffradar,
         date: "Jan 2024 - May 2024",
         link: "https://drive.google.com/file/d/1IP2S-tGqmLZWMsyaH4BO5EBswIaA4chn/view",
         icon: <FaMusic className="text-blue-500 text-2xl" />
@@ -14,7 +20,7 @@ const projects = [
         title: "CineScope",
         description: "A dynamic movie recommendation website covering films from 2001 to 2024 across multiple languages. Built using React.js and Node.js, it offers personalized recommendations and an intuitive user interface.",
         techStack: ["React.js", "Node.js", "MongoDB"],
-        image: "src/assets/projects/ca.png",
+        image: cinescope,
         date: "Jan 2024 - May 2024",
         link: "https://drive.google.com/file/d/19Y-h6HdeeraqWB2rMyukbP3AuGzps10T/view",
         icon: < FaFilm className="text-red-500 text-2xl" />
@@ -23,7 +29,7 @@ const projects = [
         title: "Archive Message Reconstructor",
         description: "A data reconstruction tool that processes encoded messages, using Java and Data Structures for decoding and pattern recognition.",
         techStack: ["Java", "Data Structures"],
-        image: "src/assets/projects/monalisa.png",
+        image: archive_message_reconstruction,
         date: "Nov 2023 - Dec 2023",
         link: "https://github.com/pranava-sai/BinaryTreeMessageDecoder",
         icon: <FaRobot className="text-indigo-500 text-2xl" />
@@ -32,7 +38,7 @@ const projects = [
         title: "Interactive Puzzle Game",
         description: "A Java-based interactive puzzle-solving game featuring OOP principles and algorithmic problem-solving to engage players in logical challenges.",
         techStack: ["Java", "OOP"],
-        image: "src/assets/projects/puzzle.png",
+        image: interactive_puzzle_game,
         date: "Mar 2023 - Apr 2023",
         link: "https://github.com/pranava-sai/InteractivePuzzleGame",
         icon: <FaCode className="text-orange-500 text-2xl" />
@@ -41,7 +47,7 @@ const projects = [
         title: "CommandTune",
         description: "A command-line music player that enables users to play, pause, and navigate songs using keyboard commands. Developed using Python and PyGame for seamless audio control.",
         techStack: ["Python", "PyGame"],
-        image: "src/assets/projects/ct.png",
+        image: command_tune,
         date: "Nov 2022 - Dec 2022",
         link: "https://drive.google.com/file/d/1c_PkSsZt3kQ0bmO7kpO4EJl2kVfA7VPu/view",
         icon: <FaMusic className="text-green-500 text-2xl" />
@@ -50,7 +56,7 @@ const projects = [
         title: "Dungeon Crawl",
         description: "A turn-based combat and exploration game featuring strategic player choices and immersive narrative elements, developed in a terminal-based Python interface.",
         techStack: ["Python"],
-        image: "src/assets/projects/dc.png",
+        image: dungeon_crawl,
         date: "Oct 2022 - Nov 2022",
         link: "https://github.com/pranava-sai/DungeonCrawlPyGame",
         icon: <FaGamepad className="text-purple-500 text-2xl" />
